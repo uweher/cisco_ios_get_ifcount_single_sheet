@@ -1,0 +1,7 @@
+Windows
+docker run -it --rm -v  $pwd/:/app -e USER=xxx  -e PASS=yyy uhert/getcount
+
+Linux:
+docker run -it --rm -v $(pwd)/:/app -e USER=xxx -e PASS=yyy uhert/getcount python ./script/getcount.py
+
+
